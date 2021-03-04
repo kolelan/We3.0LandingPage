@@ -1,1 +1,2 @@
-# We3.0LandinpageDesign
+# We3.0LandingPage
+Проект простой серверной части простой страницы
