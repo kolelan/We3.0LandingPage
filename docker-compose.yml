@@ -1,0 +1,10 @@
+version: "3"
+services:
+  landing-nginx:
+    image: landing-nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - landing-php-fpm
+  landing-php-fpm:
+    image: landing-php-fpm
